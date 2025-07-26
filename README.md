@@ -23,8 +23,9 @@ It’s part of my Cloud Support learning journey to build skills around real-wor
 - `index.html` – Homepage content  
 - `error.html` – Custom error page for 4XX errors
 
-📸 Screenshot: index and error HTML creation
-(screenshots/.html files created.png)
+ 📸 *Screenshot: index and error HTML creation*
+(screenshots/.html files created.png) 
+
 ---
 
 ### ✅ Step 2: Created S3 Bucket
@@ -32,6 +33,7 @@ It’s part of my Cloud Support learning journey to build skills around real-wor
 - Disabled “Block All Public Access”
 
 📸 *![Screenshot: Bucket settings](screenshots/Bucket creation.png)*
+
 ---
 
 ### ✅ Step 3: Uploaded Website Files
@@ -40,6 +42,7 @@ It’s part of my Cloud Support learning journey to build skills around real-wor
 📸 *Screenshot: Upload interface*
 ![screenshots/Files uploading.png]
 ![screenshots/objects uploaded successfully.png]
+
 ---
 
 ### ✅ Step 4: Enabled Static Website Hosting
@@ -50,6 +53,7 @@ It’s part of my Cloud Support learning journey to build skills around real-wor
 📸 *Screenshot: Static website hosting enabled*
 ![screenshots/Successfully SWH enabled_1.png]
 ![screenshots/Successfully SWH enabled_2.png]
+
 ---
 
 ### ✅ Step 5: Updated Bucket Policy
@@ -58,6 +62,7 @@ It’s part of my Cloud Support learning journey to build skills around real-wor
 📸 *Screenshot: Policy editor with JSON*
 ![screenshots/check Block Public access On or Off.png]
 ![screenshots/Bucket policy successfully edited..png]
+
 ---
 
 ### ✅ Step 6: Tested Website URL
@@ -68,6 +73,7 @@ It’s part of my Cloud Support learning journey to build skills around real-wor
 📸 *Screenshot: Working website*
 ![screenshots/Endpoint URL initial result- Access Denied.png]
 ![screenshots/Endpoin URL result after enabling public access.png]
+
 ---
 
 ## ⚠️ Simulated Downtime for RCA
@@ -99,6 +105,7 @@ screenshots/Showing error page.png
 screenshots/Showing error page.png
 screenshots/Missing file restored.png
 screenshots/Website back to online.png
+
 ---
 
 ## 📚 Learnings
