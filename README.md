@@ -24,7 +24,7 @@ It’s part of my Cloud Support learning journey to build skills around real-wor
 - `error.html` – Custom error page for 4XX errors
 
 📸 *Screenshot: index and error HTML creation*
-
+screenshots/.html files created.png
 ---
 
 ### ✅ Step 2: Created S3 Bucket
@@ -32,14 +32,15 @@ It’s part of my Cloud Support learning journey to build skills around real-wor
 - Disabled “Block All Public Access”
 
 📸 *Screenshot: Bucket settings*
-
+screenshots/Bucket creation.png
 ---
 
 ### ✅ Step 3: Uploaded Website Files
 - Uploaded both `index.html` and `error.html` directly into the bucket
 
 📸 *Screenshot: Upload interface*
-
+screenshots/Files uploading.png
+screenshots/objects uploaded successfully.png
 ---
 
 ### ✅ Step 4: Enabled Static Website Hosting
@@ -48,14 +49,16 @@ It’s part of my Cloud Support learning journey to build skills around real-wor
 - Set error document: `error.html`
 
 📸 *Screenshot: Static website hosting enabled*
-
+screenshots/Successfully SWH enabled_1.png
+screenshots/Successfully SWH enabled_2.png
 ---
 
 ### ✅ Step 5: Updated Bucket Policy
 - Granted public `GetObject` permission using a bucket policy
 
 📸 *Screenshot: Policy editor with JSON*
-
+screenshots/check Block Public access On or Off.png
+screenshots/Bucket policy successfully edited..png
 ---
 
 ### ✅ Step 6: Tested Website URL
@@ -64,7 +67,8 @@ It’s part of my Cloud Support learning journey to build skills around real-wor
 👉 `http://<your-bucket-name>.s3-website-<region>.amazonaws.com`
 
 📸 *Screenshot: Working website*
-
+screenshots/Endpoint URL initial result- Access Denied.png
+screenshots/Endpoin URL result after enabling public access.png
 ---
 
 ## ⚠️ Simulated Downtime for RCA
@@ -72,10 +76,17 @@ It’s part of my Cloud Support learning journey to build skills around real-wor
 ### 🧪 Scenario
 - Manually removed public access / deleted `index.html`
 - Tried accessing the site via public URL
+  
+📸 *Screenshot: object renamed*
+screenshots/Object renamed successfully.png
 
 ### 🔍 Observed
 - HTTP 403 or 404 errors
 - Custom error page shown as expected
+  
+📸 *Screenshot: error page observed*
+screenshots/Showing error page.png
+
 
 ### 📋 RCA Report
 
@@ -86,7 +97,9 @@ It’s part of my Cloud Support learning journey to build skills around real-wor
 | Hosting Setup | Missing or wrong config           | Validated index & error document setup |
 
 📸 *Screenshot: Error screen and resolution*
-
+screenshots/Showing error page.png
+screenshots/Missing file restored.png
+screenshots/Website back to online.png
 ---
 
 ## 📚 Learnings
