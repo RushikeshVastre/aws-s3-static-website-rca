@@ -24,8 +24,7 @@ It’s part of my Cloud Support learning journey to build skills around real-wor
 - `error.html` – Custom error page for 4XX errors
 
 📸 *Screenshot: index and error HTML creation*
-![screenshots/.html files created.png]
-(screenshots/.html files created.png)
+https://github.com/RushikeshVastre/aws-s3-static-website-rca/commit/a31ddb0ed16450748e5d26af5aae8a48c957fea5#diff-5c7f54f862c6633cb275ba65844e29f8b192a5e544ef788ab6c6eeada798c03c
 ---
 
 ### ✅ Step 2: Created S3 Bucket
@@ -33,7 +32,7 @@ It’s part of my Cloud Support learning journey to build skills around real-wor
 - Disabled “Block All Public Access”
 
 📸 *Screenshot: Bucket settings*
-![screenshots/Bucket creation.png]
+![](screenshots/Bucket creation.png)
 ---
 
 ### ✅ Step 3: Uploaded Website Files
