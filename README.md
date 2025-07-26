@@ -31,8 +31,7 @@ https://github.com/RushikeshVastre/aws-s3-static-website-rca/commit/a31ddb0ed164
 - Bucket Name: `my-static-site-project`  
 - Disabled “Block All Public Access”
 
-📸 *Screenshot: Bucket settings*
-![](screenshots/Bucket creation.png)
+📸 *![Screenshot: Bucket settings](screenshots/Bucket creation.png)*
 ---
 
 ### ✅ Step 3: Uploaded Website Files
