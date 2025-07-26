@@ -25,6 +25,7 @@ It’s part of my Cloud Support learning journey to build skills around real-wor
 
 📸 *Screenshot: index and error HTML creation*
 ![screenshots/.html files created.png]
+(screenshots/.html files created.png)
 ---
 
 ### ✅ Step 2: Created S3 Bucket
