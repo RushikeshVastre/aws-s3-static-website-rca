@@ -1,9 +1,15 @@
-# 📦 AWS S3 Static Website Hosting – Downtime RCA Simulation
+# 🚀 AWS S3 Static Website Hosting & Downtime RCA
 
-## 📝 Project Overview
+A mini hands-on project demonstrating how to host a static website using Amazon S3 and troubleshoot downtime issues with proper Root Cause Analysis (RCA).
 
-This project demonstrates how to host a static website using **Amazon S3** and simulate downtime for **Root Cause Analysis (RCA)**.  
-It’s part of my Cloud Support learning journey to build skills around real-world troubleshooting and cloud service handling.
+---
+
+## ☁️ Project Overview
+
+- Hosted a static website (HTML) using Amazon S3.
+- Configured bucket policies and public access settings.
+- Faced downtime during access — performed RCA and fixed the issue.
+- Documented all steps with screenshots and reasoning.
 
 ---
 
